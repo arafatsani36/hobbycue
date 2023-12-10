@@ -212,6 +212,60 @@ a{
     color: rgba(8, 9, 10, 1);
 }
 
+/* feature section  */
+.featureBox{
+    border: 2px solid rgba(206, 212, 218, 1);
+    padding: 25px;
+    border-radius: 5px;
+    
+}
+.featureImg{
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.PlacefeatureImg{
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.ProgramfeatureImg{
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.featureheader{
+    font-weight: 600;
+    font-size: 22px;
+    line-height:36px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.featuretext{
+    font-weight: 300;
+    font-size: 18px;
+    line-height:27px;
+    color: rgba(0, 0, 0, 1);
+    margin: 10px 0px;
+}
+.featureBtn{
+    padding: 6px 15px;
+    border: 2px solid var(--primaryColor);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height:16px;
+    color: var(--primaryColor);
+}
+.Programfeaturetext{
+    margin-bottom: 36px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height:27px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 10px;
+}
+
 
 
 
