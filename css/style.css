@@ -28,6 +28,10 @@ body{
 section{
     padding: 2rem 9%;
 }
+a{
+  text-decoration: none;  
+}
+
  
 
 /* header  */
@@ -96,3 +100,122 @@ section{
     width: 100%;
     height: 100%;
 }
+.bannerLeft{
+    width: 60%;
+}
+.signIn{
+    margin-right: 25px;
+} 
+.user a{
+    color: rgba(147, 156, 163, 1);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.user .active{
+    color:  var(--primaryColor);
+    border-bottom: 2px solid  var(--primaryColor);
+}
+.socialLogin{
+    margin-top: 20px;
+}
+.googleImg{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.google{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid var(--primaryColor);
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(247, 245, 249, 1);
+    font-size: 14px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(8, 9, 10, 1);
+
+}
+.facebookImg{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.facebook{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid var(--primaryColor);
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(247, 245, 249, 1);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(8, 9, 10, 1);
+}
+.connect{
+    margin: 30px 0px;
+}
+.connecth2{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color:rgba(0, 0, 0, 1) ;
+    margin: 0px 5px; 
+}
+.inputBox{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.inputBox::placeholder {
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.form-check-label{
+    color:rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.forgotPasswordIcon{
+    color: rgba(147, 156, 163, 1);
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.forgotPassword{
+    color:rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.ContinueBtn{
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(247, 245, 249, 1);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(8, 9, 10, 1);
+}
+
+
+
+
+
+
+
+

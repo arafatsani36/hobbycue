@@ -89,10 +89,10 @@
     <!-- banner start -->
     <section id="banner">
       <div class="container">
-        <div class="row">
+        <div class="d-lg-flex justify-content-between gap-5">
 
           <!-- banner left side-->
-          <div class="col-lg-6">
+          <div class="bannerLeft">
             <div>
               <h2 class="bannerHerder">Explore your <span class="spanone">hobby</span> or <span class="spantwo">passion</span></h2>
               <p class="bannerText">Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…
@@ -110,30 +110,39 @@
 
 
           <!-- banner right side  -->
-          <div class="col-lg-6">
-            <div>
-              <div>
-                <h4>Sign In</h4>
+          <div>
+            <div class="d-flex user">
+              <div class="signIn">
+                <a class="active" href="#">Sign In</a>
               </div>
-              <div>
-                <h4>Join In</h4>
+              <div  class="joinIn">
+                <a href="">Join In</a>
               </div>
             </div>
-            <button>Continue with Google</button>
-            <button>Continue with Facebook</button>
+            
+            <div class="socialLogin">
+             <div>
+               <img class="googleImg" src="../hobbycue/img/icon/Google.svg" alt="">
+               <button class="google"> Continue with Google</button>
+             </div>
+              <div>
+                <img class="facebookImg" src="../hobbycue/img/icon/Facebook.svg" alt="">
+                <button class="facebook">Continue with Facebook</button>
+              </div>
+            </div> 
 
-            <div>
-              <span></span>
-              <h2>Or connect with</h2>
-              <span></span>
+            <div class="d-flex connect">
+              <img src="../hobbycue/img/icon/Rectangle 71.svg" alt="">
+              <h2 class="connecth2">Or connect with</h2>
+              <img src="../hobbycue/img/icon/Rectangle 71.svg" alt="">
             </div>
 
            <div>
-            <input type="email" name="" id="" placeholder="Email">
-            <input type="password" name="" id="" placeholder="Password">
+            <input class="inputBox" type="email" name="" id="" placeholder="Email">
+            <input class="inputBox" type="password" name="" id="" placeholder="Password">
            </div>
 
-           <div>
+           <div class="d-flex justify-content-between">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
               <label class="form-check-label" for="flexCheckChecked">
@@ -141,13 +150,13 @@
               </label>
             </div>
 
-            <div>
-              <i class="fa-solid fa-lock"></i>
-              <h4>Forgot password?</h4>
+            <div class="d-flex">
+              <i class="fa-solid fa-lock forgotPasswordIcon"></i>
+              <h4 class="forgotPassword">Forgot password?</h4>
             </div>
            </div>
 
-           <button>Continue</button>
+           <button class="ContinueBtn">Continue</button>
 
           </div>
           <!-- banner right side  -->
