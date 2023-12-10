@@ -213,6 +213,9 @@ a{
 }
 
 /* feature section  */
+#feature{
+    margin: 10px 0px;
+}
 .featureBox{
     border: 2px solid rgba(206, 212, 218, 1);
     padding: 25px;
@@ -248,7 +251,7 @@ a{
     color: rgba(0, 0, 0, 1);
     margin: 10px 0px;
 }
-.featureBtn{
+.featureBtn, .addBtn{
     padding: 6px 15px;
     border: 2px solid var(--primaryColor);
     border-radius: 5px;
@@ -256,6 +259,7 @@ a{
     font-size: 14px;
     line-height:16px;
     color: var(--primaryColor);
+    background-color: rgba(255, 255, 255, 1);
 }
 .Programfeaturetext{
     margin-bottom: 36px;
@@ -264,6 +268,36 @@ a{
     line-height:27px;
     color: rgba(0, 0, 0, 1);
     margin-top: 10px;
+}
+
+/* AddYourOwn section */
+
+#AddYourOwn{
+    background-color: rgba(247, 253, 255, 1);
+}
+.AddYourOwnBox{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px;
+    border: 2px solid  rgba(206, 212, 218, 1);
+    border-radius: 5px;
+}
+.AddYourOwnImg{
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.AddYourOwnHeader{
+    font-weight: 600;
+    font-size: 24px;
+    line-height:36px;
+    color: rgba(8, 9, 10, 1);
+    margin-left: 10px;
+}
+.AddYourOwnText{
+    font-weight: 300;
+    font-size: 18px;
+    line-height:30px;
+    color: rgba(8, 9, 10, 1);
 }
 
 
